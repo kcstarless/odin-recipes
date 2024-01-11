@@ -1,0 +1,41 @@
+/* stylesheet */
+
+/* index.html */
+
+body {
+    font-family: papyrus, "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+h1, h3, h4 {
+    font-family: "Lucida Handwriting", "Times New Roman", Times, serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
+
+a:hover {
+    color: rgb(51, 110, 218);
+}
+
+/* Recipe Pages */
+
+p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.ingredients {
+    font-size: 12px;
+
+}
+.steps {
+    font-size: 12px;
+}
