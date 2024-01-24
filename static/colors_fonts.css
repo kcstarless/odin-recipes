@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 62.5%;
+    margin: 0;
+}
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 15px;
+    /* border: 1px solid black; */
+}
+
+.header {
+    /* display: flex; */
+
+    background-color: white;
+    color: #B85042; 
+    font-size: 2rem;
+    font-weight: bold;
+    /* margin: 0; */
+    /* border: 2px solid black; */
+}
+
+/* pallet p1, p2 & p3 */
+.pallet {
+    flex-direction: column;
+    padding: 0;
+}
+.p1 {    
+    background-color: #B85042;
+    color: #E7E8D1; 
+}
+.p2 {
+    background-color: #E7E8D1;
+}
+.p3 {
+    background-color: #A7BEAE;
+}
+
+/* para, style & s## */
+.para {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.style {
+    padding-top: 0px;
+}
+
+.s01 {
+    font-size: 1.5rem;
+}
+.s02 {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #E7E8D1;
+}
+.s03 {
+    font-size: 1.2rem;
+    color: white;
+}
+.s04 {
+    font-size: 1.5rem;
+    color: #A7BEAE;
+}
+.s05 {
+    color: #B85042;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.s06 {
+    color: #B85042;
+    font-size: 1.5rem;
+}
+.s07 {
+    color: #B85042;
+    font-size: 2.5rem;
+}

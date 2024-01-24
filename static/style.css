@@ -1,9 +1,12 @@
 /* stylesheet */
 
 /* index.html */
+* {
+    border: 2px solid red;
+}
 
 body {
-    font-family: papyrus, "Times New Roman", Times, serif;
+    font-family: "Open Sans", "PT Sans", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
 
@@ -13,12 +16,27 @@ h1, h3, h4 {
 
 ul {
     list-style: none;
+    /* margin: 0px 40em 0px 40em; */
+    margin: 0 auto;
+    padding: 0px;
+    width: 200px;
+}
+li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* border: 2px solid black; */
 }
 
-a:link, a:visited {
+
+a:link, 
+a:visited {
     text-decoration: none;
     color: black;
-    margin-bottom: 5px;
+    padding: 5px;
+    display: inline-block;
+    /* border: 2px solid blue; */
 }
 
 a:hover {
@@ -28,14 +46,15 @@ a:hover {
 /* Recipe Pages */
 
 p {
-    font-weight: bold;
-    font-size: 14px;
+    font-weight: lighter;
+    font-size: 18px;
 }
 
 .ingredients {
-    font-size: 12px;
-
+    font-size: 16px;
+    position: relative;
+    left: -20px;
 }
 .steps {
-    font-size: 12px;
+    font-size: 16px;
 }
